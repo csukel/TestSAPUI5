@@ -9,6 +9,12 @@
             class="sapUiResponsiveMargin"
             width="auto">
         <!--<Text text = "Hello World!"/>-->
+        <Button
+                icon="sap-icon://world"
+                text="{i18n>openDialogButtonText}"
+                press ="onOpenDialog"
+                class="sapUiSmallMarginEnd"/>
+
         <Button text = "{i18n>showHelloButtonText}" press ="onClick" class="myCustomButton"/>
         <Input
                 value="{/recipient/name}"
